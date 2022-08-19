@@ -1,0 +1,19 @@
+.header {
+    padding: 0.5em;
+    width: 100%;
+    color: #000;
+    margin: 5px;
+    bottom: 0;
+    background-color: #fff;
+
+}
+.logo{
+    margin: 0;
+    width:500%;
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+}
+h1{
+    font-size: 16px ;
+}

@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    color: #fff;
+    margin: 0;
+    bottom: 0;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, #26ACD0 0%, #20AEB3 17%, #1AB092 32%, #0FB458 64%, #01B90E 100%); 
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, #26ACD0 0%, #20AEB3 17%, #1AB092 32%, #0FB458 64%, #01B90E 100%);
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, #26ACD0 0%, #20AEB3 17%, #1AB092 32%, #0FB458 64%, #01B90E 100%);
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01B90E', endColorstr='#26ACD0', GradientType=0 );
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, #26ACD0 0%, #20AEB3 17%, #1AB092 32%, #0FB458 64%, #01B90E 100%);
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, #26ACD0 0%, #20AEB3 17%, #1AB092 32%, #0FB458 64%, #01B90E 100%);
+}
+.box{
+    margin: 5px;
+    width:10%;
+    float: left;
+    border: none;
+    background-color: #D9D9D9;
+    height: 45px;
+}
+.vacio{
+    margin: 5px;
+    width:80%;
+}
+.icons{
+    width:2%;
+    float: right;
+}
