@@ -1,14 +1,14 @@
 import "./Globalstyles.css";
-import Header from "./components/header";
+import Navbar from './components/navbar';
+import SectionWelcome from './components/sectionwelcome';
 import Footer from './components/footer';
+
 
 function App() {
   return (
       <div className="page-container">
-         <div className="content-wrap">
-         <Header/>
-         </div>
-         
+         <Navbar/>
+         <SectionWelcome/>
         <Footer/>
       </div>
   );

@@ -1,14 +1,7 @@
-.footer {
+.sectionwelcome{
     width: 100%;
     height: auto;
-    position: fixed;
-    color: #fff;
-    margin: 0;
-    bottom: 0;
-    padding: 0.5em;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     /* ff 3.6+ */
     background:-moz-linear-gradient(90deg, #26ACD0 0%, #20AEB3 17%, #1AB092 32%, #0FB458 64%, #01B90E 100%); 
     /* safari 5.1+,chrome 10+ */
@@ -21,20 +14,50 @@
     background:-ms-linear-gradient(90deg, #26ACD0 0%, #20AEB3 17%, #1AB092 32%, #0FB458 64%, #01B90E 100%);
     /* global 94%+ browsers support */
     background:linear-gradient(90deg, #26ACD0 0%, #20AEB3 17%, #1AB092 32%, #0FB458 64%, #01B90E 100%);
+  }
+
+.sectionwelcome .lefside{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-left: 60px;
 }
-.box{
-    margin: 5px;
-    width:10%;
-    float: left;
+
+.text{
+    font-size: 1em;
+    font-weight:600;
+    color: #fff;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+
+.lefside input{
+    width: 220px;
+    height: 32px;
     border: none;
-    background-color: #D9D9D9;
-    height: 35px;
+    border-radius: 4px 0px 0px 4px;
+    padding-left: 15px;
+    color: #000;  
+    font-size: 0.7em;
 }
-.vacio{
-    margin: 5px;
-    width:80%;
+
+.lefside button{
+    height: 32px;
+    width: 35px;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    background-color:#01013f;
+    color: #fff;
 }
-.icons{
-    width:2%;
-    float: right;
+
+.sectionwelcome .rightside{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
