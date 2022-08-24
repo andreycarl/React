@@ -65,6 +65,9 @@
     background-color: #D9D9D9;
     border:none;
     border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .rightside .formregister p{
@@ -83,7 +86,6 @@ h6{
     display: flex;
     text-align: left;
     width: 80%;
-    height: 10px;
     border-color:  1px solid #01013f;
     border-radius: 20px;
     padding: 10px 8px 8px 10px ;
