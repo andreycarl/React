@@ -12,12 +12,17 @@ function sectionwelcome() {
                 <div className='bsearch'>
                     <input type="text" placeholder='Buscar cursos y más...'/>
                     <button><FaSearch /></button>
-            </div>
+                </div>
         </div>
-
       </div>
       <div className='rightside'>
-        hola
+        <div className='formregister'>
+            <p>Registrate Gratis</p>
+            <h6>!Haz click aqui y adquiere la <br></br>oportunidad de superarte!</h6>
+                <input type="text" placeholder='Text'/>
+                <input type="text" placeholder='Text'/>
+                <button type="submit" className='bgo'>Empezar</button>
+        </div>       
       </div>
     </div>
   )
