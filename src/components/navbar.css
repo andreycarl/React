@@ -27,7 +27,7 @@
 .Navbar .rightside{
   flex: 20%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items:center;
   margin-right: 1em;
   padding: 10px;
@@ -53,6 +53,11 @@
   justify-content: flex-end;
 }
 
+.blogin:hover {
+  background-color: #00b90b;
+  transform: translateY(-2px);
+}
+
 .Navbar .rightside .bregister{
   color: #000;
   font-size: 0.8rem ;
@@ -68,3 +73,7 @@
   justify-content: flex-end;
 }
 
+.bregister:hover {
+  background-color: #f6f6ff;
+  transform: translateY(-2px);
+}

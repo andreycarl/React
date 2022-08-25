@@ -17,11 +17,17 @@ function sectionwelcome() {
       </div>
       <div className='rightside'>
         <div className='formregister'>
-            <p>Registrate Gratis</p>
-            <h6>!Haz click aqui y adquiere la <br></br>oportunidad de superarte!</h6>
-                <input type="text" placeholder='Text'/>
-                <input type="text" placeholder='Text'/>
-                <button type="submit" className='bgo'>Empezar</button>
+            <form className="form">
+                <h1 className="title">Registrate Gratis</h1>
+                <p className="subtitle">!Haz click aqui y adquiere la oportunidad de superarte!</p>
+                <div className="inputform">
+                    <input type="text" class="input" placeholder="Text" />
+                </div>
+                <div className="inputform">
+                    <input type="text" class="input" placeholder="Text" />
+                </div>
+                <input type="submit" class="submitbtn" value="Empezar" />
+            </form>
         </div>       
       </div>
     </div>
