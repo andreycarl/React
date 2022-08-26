@@ -1,7 +1,8 @@
 import "./Globalstyles.css";
 import Navbar from './components/navbar';
 import SectionWelcome from './components/sectionwelcome';
-import Sectioncursos from './components/sectioncursos';
+import SectionSearch from './components/SectionSearch';
+import SectionInvitation from './components/SectionInvitation';
 import Footer from './components/footer';
 
 
@@ -10,7 +11,8 @@ function App() {
       <div className="page-container">
          <Navbar/>
          <SectionWelcome/>
-         <Sectioncursos/>
+         <SectionSearch/>
+         <SectionInvitation/>
         <Footer/>
       </div>
   );
