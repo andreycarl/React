@@ -11,21 +11,39 @@ function sectionCursos() {
             hola
         </div>
     </div>*/
-    <div class='flex-container'>
-   
-    <div className='item1'>item 1</div>
-    <div class='item2'>item 2</div>
-    <div class='item3'>item 3</div>
-    <div class='item4'>item 4</div>
-    <div class='item5'>item 5</div>
-    <div class='item6'>item 6</div>
-    <div class='item7'>item 7</div>
-    <div class='item8'>item 8</div>
-    <div class='item9'>item 9</div>
-    <div class='item10'>item 10</div>
-    <div class='item11'>item 11</div>
-
-</div>
+<div className='sectioncursos'>
+    <div className='textcursos'>
+            <p className='ttextcursos'>Descubre que puedes aprender en FORMASER</p>
+        </div>    
+    <div className='flex-container'>
+        <div className='item1'></div>
+        <div className='item2'></div>
+        <div className='item3'></div>
+        <div className='item4'></div>
+        <div className='item5'></div>
+    </div>
+    <div className='flex-namecurso'>
+        <div className='item1'> Marketing</div>
+        <div className='item2'>Diseño</div>
+        <div className='item3'>Programación</div>
+        <div className='item4'>Negocios</div>
+        <div className='item5'>Inglés</div>
+    </div>
+    <div className='flex-container1'>
+        <div className='item6'></div>
+        <div className='item7'></div>
+        <div className='item8'></div>
+        <div className='item9'></div>
+        <div className='item10'></div>
+    </div>
+    <div className='flex-namecurso1'>
+        <div className='item6'> Contenido<br></br> Digital</div>
+        <div className='item7'>Fotografía</div>
+        <div className='item8'>Excel</div>
+        <div className='item9'>Liderazgo</div>
+        <div className='item10'>Ilustración<br></br>Digital</div>
+    </div>
+    </div>
   )
 }
 

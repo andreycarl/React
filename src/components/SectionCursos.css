@@ -1,47 +1,90 @@
-/*.sectioncursos{
+.sectioncursos{
     width: 100%;
     height: 400px;
-    flex-flow: column wrap;
-}
-.sectioncursos .textcursos{
     display: flex;
-    padding: 10px;
-    width: 100%;
-    height:50px; 
-    justify-content: center;
+    flex-direction: column;
 }
 .ttextcursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 1em;
     font-weight:bold;
     color: #00b90b;
     letter-spacing: 0.5px;
     text-align: center;
 }
-.sectioncursos .cursos{
-    width:100%;
-    height:100;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color:blueviolet;
-}*/
 .flex-container {
-
-    display: flex;
-      
-    /* flex-flow: wrap; */  
-    flex-wrap: wrap; 
-
-    background-color: #bbdefb;
-    height: 100%;
-    padding: 50px;
-    gap: 5px;
-
+    width: 100%;
+    height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    overflow: hidden;
   }
-
   .flex-container > div{
-    background: #ffecb3;
-    border: 3px solid #ffcc80;
-    border-radius: 5px;
-    padding: 8px;
+    background: #D9D9D9;
+    border: none;
+    width: 100px; 
+    height: 100px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+  .flex-namecurso {
+    width: 100%;
+    height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    overflow: hidden;
+    margin:0 auto;
+    font-weight: bold;
+    color:black;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .flex-container1 {
+    width: 100%;
+    height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    overflow: hidden;
+    padding-top: 30px;
+  }
+  .flex-container1 > div{
+    background: #D9D9D9;
+    border: none;
+    width: 100px; 
+    height: 100px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+  .flex-namecurso1 {
+    width: 100%;
+    height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    overflow: hidden;
+    margin:0 auto;
+    font-weight: bold;
+    color:black;
+    font-size: 0.8em;
+    text-align: center;
   }
