@@ -1,0 +1,47 @@
+/*.sectioncursos{
+    width: 100%;
+    height: 400px;
+    flex-flow: column wrap;
+}
+.sectioncursos .textcursos{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height:50px; 
+    justify-content: center;
+}
+.ttextcursos{
+    font-size: 1em;
+    font-weight:bold;
+    color: #00b90b;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.sectioncursos .cursos{
+    width:100%;
+    height:100;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:blueviolet;
+}*/
+.flex-container {
+
+    display: flex;
+      
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap; 
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 50px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+  }
